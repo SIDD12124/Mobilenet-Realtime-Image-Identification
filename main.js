@@ -11,7 +11,7 @@ function modelLoaded(){
   console.log('Model has been loaded');
 }
 
-function draw{
+function draw(){
   image(video, 0, 0, 300, 300);
   classifier.classify(video, gotResult);
 }
